@@ -5,11 +5,10 @@
 	margin:0 auto;
 	padding-bottom: 8px;
 }
-.page_header img{
-	height: 35px;
-	width: 128px;
-}
-.page_header .fr{
+.page_header img {
+    height: 46px;
+    /* width: 128px; */
+}.page_header .fr{
 	float: right;
 }
 .fr:nth-of-type(1){
@@ -41,7 +40,7 @@ color:rgba(0,158,161,1);
 margin-right: 5px;
 }
 .ulList{
-	margin-top: 3px;
+	margin-top: 8px;
 }
 .ulList a{
 	padding-bottom: 6px;
