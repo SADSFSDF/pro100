@@ -20,6 +20,7 @@
     text-align: left;
     padding-bottom: 10px;
     border-bottom: 1px solid #0bbabd;
+    cursor: pointer;
 }
 .bnone{
 	border-bottom:0!important;
@@ -134,4 +135,20 @@
 	color: #333;
 	font-weight: bold;
 	margin-bottom: 14px;
+}
+.on{
+	height:10px!important;
+	display: none;
+}
+.menuDiv{
+	padding-top: 4px;
+	display: none;
+	padding-bottom: 4px;
+	padding-left: 10px;
+}
+.menuDiv div{
+	padding-top: 4px;
+	color: #ddeeee;
+	font-size: 12px;
+	padding-bottom: 4px;
 }

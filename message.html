@@ -13,39 +13,75 @@
 		<span class="fr"><font>李美</font>内科</span>
 		<div class="ulList">
 			<a href="index.html" >首页</a>
+			<a href="message.html" class="active">资讯中心</a>
+			<a href="work.html">工作台</a>
 			<a href="javascript:;">会议管理</a>
 			<a href="javascript:;">知识中心</a>
 			<a href="javascript:;">流程中心</a>
-			<a href="message.html" class="active">咨询中心</a>
-			<a href="work.html">报表中心</a>
 		</div>
 	</div>
 	<div class="page_content">
 		<div class="inlineBlock">
 			<div class="message_left">
 				<div class="message_left_inner middle">
-					<img src="images/箭头(1)@2x.png" class="middle">
-					<span class="middle">党委办公室</span>
+					<img src="images/箭头(1)@2x.png" class="middle off clickFn">
+					<img src="images/1590409858(1).jpg" class="middle on clickFn">
+					<span class="middle clickFn">党委办公室</span>
+					<div class="menuDiv">
+						<div>十九大学习专栏</div>
+						<div>十九大学习专栏</div>
+						<div>十九大学习专栏</div>
+					</div>
 				</div>
 				<div class="message_left_inner middle">
-					<img src="images/箭头(1)@2x.png" class="middle">
-					<span class="middle">学习专栏</span>
+					<img src="images/箭头(1)@2x.png" class="middle off clickFn">
+					<img src="images/1590409858(1).jpg" class="middle on clickFn">
+					<span class="middle clickFn">学习专栏</span>
+					<div class="menuDiv">
+						<div>十九大学习专栏</div>
+						<div>十九大学习专栏</div>
+						<div>十九大学习专栏</div>
+					</div>
 				</div>
 				<div class="message_left_inner middle">
-					<img src="images/箭头(1)@2x.png" class="middle">
-					<span class="middle">党务公开栏</span>
+					<img src="images/箭头(1)@2x.png" class="middle off clickFn">
+					<img src="images/1590409858(1).jpg" class="middle on clickFn">
+					<span class="middle clickFn">党务公开栏</span>
+					<div class="menuDiv">
+						<div>十九大学习专栏</div>
+						<div>十九大学习专栏</div>
+						<div>十九大学习专栏</div>
+					</div>
 				</div>
 				<div class="message_left_inner middle">
-					<img src="images/箭头(1)@2x.png" class="middle">
-					<span class="middle">中层干部述职报告</span>
+					<img src="images/箭头(1)@2x.png" class="middle off clickFn">
+					<img src="images/1590409858(1).jpg" class="middle on clickFn">
+					<span class="middle clickFn">中层干部述职报告</span>
+					<div class="menuDiv">
+						<div>十九大学习专栏</div>
+						<div>十九大学习专栏</div>
+						<div>十九大学习专栏</div>
+					</div>
 				</div>
 				<div class="message_left_inner middle">
-					<img src="images/箭头(1)@2x.png" class="middle">
-					<span class="middle">十九大学习专栏</span>
+					<img src="images/箭头(1)@2x.png" class="middle off clickFn">
+					<img src="images/1590409858(1).jpg" class="middle on clickFn">
+					<span class="middle clickFn">十九大学习专栏</span>
+					<div class="menuDiv">
+						<div>十九大学习专栏</div>
+						<div>十九大学习专栏</div>
+						<div>十九大学习专栏</div>
+					</div>
 				</div>
 				<div class="message_left_inner middle">
-					<img src="images/箭头(1)@2x.png" class="middle">
-					<span class="middle">光荣榜</span>
+					<img src="images/箭头(1)@2x.png" class="middle off clickFn">
+					<img src="images/1590409858(1).jpg" class="middle on clickFn">
+					<span class="middle clickFn">光荣榜</span>
+					<div class="menuDiv">
+						<div>十九大学习专栏</div>
+						<div>十九大学习专栏</div>
+						<div>十九大学习专栏</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -200,5 +236,12 @@
 	</div>
 	<div class="footer_1">本网站由神雷科技提供技术支持</div>
 </body>
-<script type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+	$(".clickFn").on("click",function(){
+		$(this).parent().find(".menuDiv").toggle();
+		$(this).parent().find(".on").toggle();
+		$(this).parent().find(".off").toggle();
+	})
+</script>
 </html> 
